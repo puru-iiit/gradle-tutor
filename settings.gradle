@@ -1,7 +1,6 @@
 include 'commons'
 include 'service'
 include 'dao'
-if (includeIngress.toBoolean()) {
-    include 'ingress'
+if (includeModule.toBoolean()) {
+    include 'module'
 }
-include 'egress'
